@@ -1,20 +1,50 @@
 # @stackline/grunt-contrib-clean
 
-Independent maintenance fork of `grunt-contrib-clean@2.0.1`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+> Clean files and folders.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/grunt-contrib-clean.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/grunt-contrib-clean)
+[![license](https://img.shields.io/npm/l/@stackline/grunt-contrib-clean.svg?style=flat-square)](https://github.com/alexandroit/stackline-grunt-contrib-clean)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-grunt-contrib-clean-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-grunt-contrib-clean)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/grunt-contrib-clean/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/grunt-contrib-clean/)** | **[npm](https://www.npmjs.com/package/@stackline/grunt-contrib-clean)** | **[Issues](https://github.com/alexandroit/stackline-grunt-contrib-clean/issues)** | **[Repository](https://github.com/alexandroit/stackline-grunt-contrib-clean)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/grunt-contrib-clean` is the Stackline-maintained distribution of `grunt-contrib-clean@2.0.1`. It is an independent continuation of [grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/grunt-contrib-clean@1.0.1` |
+| API target | `grunt-contrib-clean@2.0.1` |
+| Supported Node.js | `>=12` |
+| License | `MIT` |
+| Main entry | `tasks/clean.js` |
+| Runtime dependencies | `async, rimraf` |
+| Peer dependencies | `grunt >=0.4.5` |
+
+## Installation
+
+```bash
 npm install @stackline/grunt-contrib-clean
-# Preserve existing imports with an npm alias:
-npm install grunt-contrib-clean@npm:@stackline/grunt-contrib-clean@1.0.0
 ```
 
-See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+Preserve existing imports and plugin resolution with an npm alias:
 
-Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-grunt-contrib-clean/issues) · [npm](https://www.npmjs.com/package/@stackline/grunt-contrib-clean).
+```bash
+npm install grunt-contrib-clean@npm:@stackline/grunt-contrib-clean
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# grunt-contrib-clean v2.0.0 [![Build Status](https://github.com/gruntjs/grunt-contrib-clean/workflows/Tests/badge.svg)](https://github.com/gruntjs/grunt-contrib-clean/actions?workflow=Tests)
+### grunt-contrib-clean v2.0.0 [![Build Status](https://github.com/gruntjs/grunt-contrib-clean/workflows/Tests/badge.svg)](https://github.com/gruntjs/grunt-contrib-clean/actions?workflow=Tests)
 
 > Clean files and folders
 
@@ -25,13 +55,13 @@ Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/a
 If you haven't used [Grunt](https://gruntjs.com/) before, be sure to check out the [Getting Started](https://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](https://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-contrib-clean --save-dev
+npm install @stackline/grunt-contrib-clean --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-contrib-clean');
+grunt.loadNpmTasks('@stackline/grunt-contrib-clean');
 ```
 
 *This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](https://gruntjs.com/upgrading-from-0.3-to-0.4), but in case you can't please use [v0.3.2](https://github.com/gruntjs/grunt-contrib-clean/tree/grunt-0.3-stable).*
@@ -180,3 +210,25 @@ clean: {
 Task submitted by [Tim Branyen](http://tbranyen.com/)
 
 *This file was generated on Fri Apr 15 2022 21:07:19.*
+
+## Credits and original authors
+
+- Original project: [grunt-contrib-clean](https://github.com/gruntjs/grunt-contrib-clean).
+- Grunt Team.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## License
+
+`MIT`. See the license and notice files in the [repository](https://github.com/alexandroit/stackline-grunt-contrib-clean).
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.

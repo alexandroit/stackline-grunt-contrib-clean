@@ -1,7 +1,7 @@
 {
   "name": "@stackline/grunt-contrib-clean",
   "description": "Clean files and folders",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Grunt Team",
     "url": "https://gruntjs.com/"
@@ -34,6 +34,11 @@
     "grunt": ">=0.4.5"
   },
   "keywords": [
+    "stackline",
+    "npm-package",
+    "grunt-contrib-clean",
+    "grunt-plugin",
+    "nodejs",
     "gruntplugin",
     "clean",
     "cleanup",
@@ -43,7 +48,6 @@
     "rm",
     "rmrf",
     "rimraf",
-    "stackline",
     "maintenance-fork"
   ],
   "files": [
@@ -60,7 +64,7 @@
   "bugs": {
     "url": "https://github.com/alexandroit/stackline-grunt-contrib-clean/issues"
   },
-  "homepage": "https://github.com/alexandroit/stackline-grunt-contrib-clean#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/grunt-contrib-clean/",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
