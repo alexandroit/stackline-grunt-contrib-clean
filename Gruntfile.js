@@ -40,12 +40,10 @@ module.exports = function(grunt) {
   });
 
   // Actually load this plugin's task(s).
-  grunt.loadTasks('tasks');
+  grunt.loadTasks(process.env.STACKLINE_TEST_PACKAGE ? require('path').join(process.env.STACKLINE_TEST_PACKAGE, 'tasks') : 'tasks');
+  require('./scripts/nodeunit-compat.cjs')(grunt);
 
   // These plugins provide necessary tasks.
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-nodeunit');
-  grunt.loadNpmTasks('grunt-contrib-internal');
 
   // Setup a test helper to create some folders to clean.
   grunt.registerTask('copy', 'Copy fixtures to a temp location.', function() {
@@ -69,8 +67,8 @@ module.exports = function(grunt) {
 
   // Whenever the 'test' task is run, first create some files to be cleaned,
   // then run this plugin's task(s), then test the result.
-  grunt.registerTask('test', ['jshint', 'copy', 'clean', 'nodeunit']);
+  grunt.registerTask('test', ['copy', 'clean', 'nodeunit']);
 
   // By default, lint and run all tests.
-  grunt.registerTask('default', ['jshint', 'test', 'build-contrib']);
+  grunt.registerTask('default', ['test']);
 };

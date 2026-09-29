@@ -1,3 +1,19 @@
+# @stackline/grunt-contrib-clean
+
+Independent maintenance fork of `grunt-contrib-clean@2.0.1`. Original API, module format, runtime dependency ranges, and supported Node.js engines are preserved.
+
+```sh
+npm install @stackline/grunt-contrib-clean
+# Preserve existing imports with an npm alias:
+npm install grunt-contrib-clean@npm:@stackline/grunt-contrib-clean@1.0.0
+```
+
+See [UPSTREAM.md](UPSTREAM.md) for the exact source and issue review, and [CHANGELOG.md](CHANGELOG.md) for focused maintenance changes. Development and release tooling runs on Node.js 24; that does not change the library runtime requirement.
+
+Maintained by [Stackline](https://alexandro.net/). [Issues](https://github.com/alexandroit/stackline-grunt-contrib-clean/issues) · [npm](https://www.npmjs.com/package/@stackline/grunt-contrib-clean).
+
+## Upstream documentation
+
 # grunt-contrib-clean v2.0.0 [![Build Status](https://github.com/gruntjs/grunt-contrib-clean/workflows/Tests/badge.svg)](https://github.com/gruntjs/grunt-contrib-clean/actions?workflow=Tests)
 
 > Clean files and folders
