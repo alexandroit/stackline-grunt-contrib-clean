@@ -4,13 +4,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@stackline/grunt-contrib-clean.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/grunt-contrib-clean)
 [![license](https://img.shields.io/npm/l/@stackline/grunt-contrib-clean.svg?style=flat-square)](https://github.com/alexandroit/stackline-grunt-contrib-clean)
-[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-grunt-contrib-clean-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-grunt-contrib-clean)
+[![GitHub repository](https://img.shields.io/badge/GitHub-repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-grunt-contrib-clean)
 [![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/grunt-contrib-clean/)
 [![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
 **[Documentation](https://alexandro.net/docs/vanilla/grunt-contrib-clean/)** | **[npm](https://www.npmjs.com/package/@stackline/grunt-contrib-clean)** | **[Issues](https://github.com/alexandroit/stackline-grunt-contrib-clean/issues)** | **[Repository](https://github.com/alexandroit/stackline-grunt-contrib-clean)**
 
-**Current package version:** `1.0.1`
+**Current package version:** `1.0.2`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/grunt-contrib-clean@1.0.1` |
+| Package | `@stackline/grunt-contrib-clean@1.0.2` |
 | API target | `grunt-contrib-clean@2.0.1` |
 | Supported Node.js | `>=12` |
 | License | `MIT` |
