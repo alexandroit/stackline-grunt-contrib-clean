@@ -4,7 +4,7 @@
     {
       "name": "@stackline/grunt-contrib-clean",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -26,8 +26,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/grunt-contrib-clean/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/grunt-contrib-clean/-/grunt-contrib-clean-1.0.0.tgz",
       "baselineIntegrity": "sha512-5UuKJEn7aKDNQFiexjp6KPWodStqM13ANEg0ZMUbcp50Exyqm7tm9pjb9GI54Ykr6G6TaT0F/95tgpQbAiv9DA==",
-      "expectedSha512": "ba0e805196a2cbbf54e7b74d7879761c61e31c0671920e24f8c7f450f58604f948e1d3d27a31e3e3598f5e0f347f3039e45d236b499e058dd79645c3f289f4d5",
-      "tag": "docs-stackline-grunt-contrib-clean-v1.0.1"
+      "expectedSha512": "c8f640da3fae1bb393b49707533837105e0df2ffd1b05f89596d0b75842177f9d3252b98cb9f6ff59976f5c7e94852442d3f67fe0611f4a595322095a4ab8ab3",
+      "tag": "docs-stackline-grunt-contrib-clean-v1.0.2"
     }
   ]
 }
